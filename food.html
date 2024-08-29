@@ -1,0 +1,209 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+section {
+    background-color: #f7f7f7;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #333;
+}
+
+.recipe-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.recipe-card img {
+    width: 200%;
+    height: 400px;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+.restaurant-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.restaurant-card img {
+    width: 200%;
+    height: 400px;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    clear: both;
+}
+
+/* Add some basic styles for the form */
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+label {
+    margin-bottom: 10px;
+}
+
+input, textarea {
+    padding: 10px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+input[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #555;
+}
+</style>
+
+    <title>Foodie Delights</title>
+    
+</head>
+<body>
+    <header>
+        <h1>Foodie Delights</h1>
+        <nav>
+            <ul>
+                <li><a href="#recipes">Recipes</a></li>
+                <li><a href="#restaurants">Restaurants</a></li>
+                <li><a href="#videos">Videos</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="recipes">
+            <h2>Recipes</h2>
+            <div class="recipe-card">
+                <img src="https://th.bing.com/th/id/OIP.e37MS5rNzAzcQAfSmQ40-AAAAA?rs=1&pid=ImgDetMain" alt="Recipe 1">
+                <h3>Chicken Fajitas</h3>
+                <p>A flavorful and spicy Mexican dish</p>
+                <ul>
+                    <li>chicken breast</li>
+                    <li>bell peppers</li>
+                    <li>onions</li>
+                    <li>tortillas</li>
+                </ul>
+                <p>Heat oil in a pan, add chicken and cook until browned</p>
+            </div>
+            <div class="recipe-card">
+                <img src="https://th.bing.com/th/id/OIP.1vEsThQbsO6dLhmmnzTt8gAAAA?w=450&h=338&rs=1&pid=ImgDetMain" alt="Recipe 2">
+                <h3>Spaghetti Bolognese</h3>
+                <p>A classic Italian pasta dish</p>
+                <ul>
+                    <li>spaghetti</li>
+                    <li>ground beef</li>
+                    <li>tomato sauce</li>
+                    <li>parmesan cheese</li>
+                </ul>
+                <p>Cook spaghetti, brown beef, and combine with tomato sauce</p>
+            </div>
+        </section>
+        <section id="restaurants">
+            <h2>Restaurants</h2>
+            <div class="restaurant-card">
+                <img src="https://th.bing.com/th/id/R.52fff8dcace9c49aa9c32336857c099f?rik=2YhEbnsaFqO40A&riu=http%3a%2f%2fwww.restaurantseatingblog.com%2fwp-content%2fuploads%2f2015%2f03%2frestaurant-interior.jpg&ehk=dKpU2%2f125xvwlCw9Qlz82F%2bhQGV%2f9Ret26YHF6Q4LdM%3d&risl=&pid=ImgRaw&r=0" alt="Restaurant 1">
+                <h3>Tasty Bites</h3>
+                <p>123 Main St, Anytown USA</p>
+                <p>555-555-5555</p>
+                <p>Try our famous burgers and fries</p>
+            </div>
+            <div class="restaurant-card">
+                <img src="https://th.bing.com/th/id/R.d25f5421697c2fd1c4fcdd5ff0e650c5?rik=6VxmyHlyxl8btw&pid=ImgRaw&r=0" alt="Restaurant 2">
+                <h3>Foodie Heaven</h3>
+                <p>456 Elm St, Anytown USA</p>
+                <p>555-555-5556</p>
+                <p>Enjoy our diverse menu and cozy atmosphere</p>
+            </div>
+        </section>
+        <section id="videos">
+            <h2>Videos</h2>
+            <iframe width="560" height="315" src="https://www.youtube.com/watch?v=Fm-w6xheCKI" frameborder="0" allowfullscreen></iframe>
+            <iframe width="560" height="315" src="()" frameborder="0" allowfullscreen></iframe>
+        </section>
+        <section id="contact">
+            <h2>Contact</h2>
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name"><br><br>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email"><br><br>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message"></textarea><br><br>
+                <input type="submit" value="Send">
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Foodie Delights</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
